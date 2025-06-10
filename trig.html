@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trigonometry in Tiny Home Building</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center fixed;
+      background-size: cover;
+      color: #4B3B2A;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #d4a373;
+    }
+
+    h1 {
+      color: #5A3E2B;
+    }
+
+    main {
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      max-width: 1000px;
+      margin: 2rem auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #6B4F3B;
+      margin-top: 1rem;
+    }
+
+    .blueprint {
+      margin: 1rem 0;
+      background-color: #fff;
+      border-left: 4px solid #d4a373;
+      padding: 1rem;
+    }
+
+    .trig-image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0;
+    }
+
+    .trig-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(212, 163, 115, 0.15);
+      /* No opacity or blend mode for full color */
+      background: transparent;
+      border: 2px solid #d4a37322;
+      transition: box-shadow 0.3s;
+    }
+
+    .trig-image:hover {
+      box-shadow: 0 6px 24px rgba(212, 163, 115, 0.25);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #d4a373;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #b07e56;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(248, 244, 235, 0.9);
+      font-style: italic;
+      color: #6B4F3B;
+      border-top: 3px dashed #ecc94b;
+    }
+
+    footer::before {
+      content: '🐘 ';
+      color: #ecc94b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trigonometry in Tiny Home Building</h1>
+    <p>Explore how simple trig helps design safer, smarter, and more efficient homes.</p>
+  </header>
+
+  <main>
+    <h2>1. Solar Panel Tilt</h2>
+    <div class="blueprint">
+      To get the most sunlight, panels are tilted based on your location.  
+      <strong>Using SOHCAHTOA</strong>, we can calculate the best angle.  
+    </div>
+
+    <h2>2. Roof Slope Design</h2>
+    <div class="blueprint">
+      The pitch of a roof must allow water to run off while remaining stable.  
+      We use <strong>tan(θ) = rise/run</strong> to calculate safe, stable angles.
+    </div>
+
+    <h2>3. Ladder Safety</h2>
+    <div class="blueprint">
+      When using ladders for installation, the angle should be around 75°.  
+      <strong>Trig helps calculate the height a ladder reaches</strong> safely.  
+    </div>
+
+    <h2>4. Roof Overhang Shadow Length</h2>
+    <div class="blueprint">
+      For passive cooling, we want overhangs to block summer sun.  
+      Using <strong>tan(θ) = height/shadow</strong> helps us calculate the shadow.
+    </div>
+
+    <div class="trig-image-container">
+      <img
+        class="trig-image"
+        src="https://mail.google.com/mail/u/0?ui=2&ik=a5c2d246e2&attid=0.1&permmsgid=msg-f:1834498271989014813&th=1975727572f9211d&view=fimg&fur=ip&permmsgid=msg-f:1834498271989014813&sz=s0-l75-ft&attbid=ANGjdJ8DTK2-KAAADxWO3eoP6b3OuEgazQ14xjsDNRWLg5hvacHM1_2DElUdyne21i0NLg4Z4Ua4fQ6uctA9Vrh6joSl9JMaHQuinambIc4XgKYABHrUySvf_ihaiLw&disp=emb&realattid=ii_197572711d0e55662b91&zw"
+        alt="Trigonometry Solar Panel Diagram"
+      />
+    </div>
+
+    <a href="index.html" class="back-button">← Back to Main Page</a>
+  </main>
+
+  <footer>
+    Math isn't just numbers — it's how we build the future.
+  </footer>
+</body>
+</html>
